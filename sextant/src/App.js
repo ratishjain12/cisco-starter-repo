@@ -1,5 +1,6 @@
 import "./App.css";
 import Entry from "./components/Entry";
+import Networkaddress from "./components/Networkaddress";
 
 function App() {
   return (
@@ -7,7 +8,10 @@ function App() {
       <header className="App-header">
         <h1>Sextant</h1>
       </header>
-      <Entry></Entry>
+      <Entry>
+        <Networkaddress value="ipv4" />
+        <Networkaddress value="ipv6" />
+      </Entry>
     </div>
   );
 }

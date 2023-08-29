@@ -1,0 +1,7 @@
+.ip-card {
+  width: 400px;
+  margin: 20px auto;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 12px;
+}

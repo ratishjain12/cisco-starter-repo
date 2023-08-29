@@ -1,9 +1,4 @@
 const Entry = ({ children }) => {
-  return (
-    <div>
-      <h1>Data</h1>
-      {children}
-    </div>
-  );
+  return <div>{children}</div>;
 };
 export default Entry;
