@@ -1,6 +1,7 @@
 import "./App.css";
 import Entry from "./components/Entry";
 import Networkaddress from "./components/Networkaddress";
+import Pylon from "./components/Pylon";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Entry>
         <Networkaddress value="ipv4" />
         <Networkaddress value="ipv6" />
+        <Pylon />
       </Entry>
     </div>
   );

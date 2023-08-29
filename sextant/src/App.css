@@ -4,7 +4,7 @@
 }
 .App-header {
   width: 100%;
-  height: 400px;
+  height: 330px;
   background-color: cornflowerblue;
   display: flex;
   justify-content: center;
@@ -13,4 +13,12 @@
     font-size: 4em;
     color: white;
   }
+}
+
+.latency-card {
+  width: 400px;
+  margin: 20px auto;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 12px;
 }
